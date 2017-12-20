@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Malik Midterm"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        />
+
+
+    <Button
+        android:id="@+id/addCommentBtn"
+        android:layout_width="324dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="3dp"
+        android:text="Sign In"
+
+         />
+
+
+    <Button
+        android:id="@+id/ContactBtn"
+        android:layout_width="324dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up"
+         />
+
+    <ListView
+        android:id="@+id/nameLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/addCommentBtn" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.mpecco3355.midterm.Bottom_Fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/activity_fragment_bottom" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.mpecco3355.midterm.Top_Fragment"
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/activity_top_fragment" />
+</RelativeLayout>
