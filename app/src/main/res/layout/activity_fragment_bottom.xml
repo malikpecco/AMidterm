@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#e0dedc"
 
     android:layout_width="match_parent" android:layout_height="match_parent">
 
@@ -10,7 +11,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:width="250dp" />
+        android:width="250dp"
+        android:hint="Name"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white" />
 
     <EditText
         android:id="@+id/Comment"
@@ -20,8 +24,10 @@
         android:layout_alignLeft="@+id/nameID"
         android:layout_alignStart="@+id/nameID"
         android:layout_below="@+id/nameID"
-        android:layout_marginTop="10dp"
-        android:width="250dp" />
+        android:width="250dp"
+        android:hint="Comment"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
 
     <Button
         android:id="@+id/button2"
@@ -30,5 +36,6 @@
         android:layout_below="@+id/Comment"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
+        android:background="#8febcb"
         android:text="Add Comment " />
 </RelativeLayout>

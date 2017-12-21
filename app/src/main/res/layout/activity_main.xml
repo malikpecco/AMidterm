@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e0dedc"
     android:padding="10dp">
 
     <TextView
@@ -26,6 +27,7 @@
         android:layout_alignLeft="@+id/ContactBtn"
         android:layout_alignStart="@+id/ContactBtn"
         android:layout_below="@+id/textView3"
+        android:background="#8febcb"
         android:text="Comment" />
 
 
@@ -36,6 +38,7 @@
         android:layout_below="@+id/addCommentBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:background="#8febcb"
         android:text="Contact" />
 
     <ListView
