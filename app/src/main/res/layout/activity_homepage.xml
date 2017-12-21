@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
->
+    android:layout_height="match_parent">
 
 
     <fragment
@@ -23,4 +22,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         tools:layout="@layout/activity_top_fragment" />
+
+
+
+
+
+
 </RelativeLayout>

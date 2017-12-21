@@ -22,25 +22,29 @@
         android:id="@+id/addCommentBtn"
         android:layout_width="324dp"
         android:layout_height="73dp"
-        android:layout_marginTop="3dp"
-        android:text="Sign In"
 
-         />
+        android:layout_alignLeft="@+id/ContactBtn"
+        android:layout_alignStart="@+id/ContactBtn"
+        android:layout_below="@+id/textView3"
+        android:text="Comment" />
 
 
     <Button
         android:id="@+id/ContactBtn"
         android:layout_width="324dp"
         android:layout_height="67dp"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/addCommentBtn"
         android:layout_centerHorizontal="true"
-        android:text="Sign up"
-         />
+        android:layout_marginTop="10dp"
+        android:text="Contact" />
 
     <ListView
         android:id="@+id/nameLV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/addCommentBtn" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ContactBtn"
+        android:layout_marginTop="19dp" />
 
 </RelativeLayout>
